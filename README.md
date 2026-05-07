@@ -5,7 +5,10 @@ Python driver for the [Waveshare DDSM210](https://www.waveshare.com/wiki/DDSM210
 ## Installation
 
 ```bash
-pip install pyddsm
+pip install git+https://github.com/fabian-bxr/pyddsm.git
+
+# using uv:
+uv add git+https://github.com/fabian-bxr/pyddsm.git
 ```
 
 ## Requirements
