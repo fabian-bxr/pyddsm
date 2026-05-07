@@ -1,0 +1,25 @@
+[project]
+name = "pyddsm"
+version = "0.1.0"
+description = "Driver for the Waveshare DDSM210 direct-drive servo motor over UART."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "fabian-bxr", email = "61473429+fabian-bxr@users.noreply.github.com" }]
+keywords = ["waveshare", "ddsm210", "motor", "uart", "robotics", "servo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Intended Audience :: Developers",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pyddsm*"]
