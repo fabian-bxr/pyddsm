@@ -3,7 +3,7 @@ name = "pyddsm"
 version = "0.1.0"
 description = "Driver for the Waveshare DDSM210 direct-drive servo motor over UART."
 readme = "README.md"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 authors = [{ name = "fabian-bxr", email = "61473429+fabian-bxr@users.noreply.github.com" }]
 keywords = ["waveshare", "ddsm210", "motor", "uart", "robotics", "servo"]
 classifiers = [
